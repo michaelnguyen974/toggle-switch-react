@@ -10,7 +10,7 @@ const Switch = ({ rounded = false }) => {
   return (
     <label className="switch">
       <input type="checkBox" />
-      <span className="slider rounded" />
+      <span className={sliderCX} />
     </label>
   );
 };

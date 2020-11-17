@@ -4,7 +4,7 @@ import Switch from "../src/components/Switch";
 const App = () => {
   return (
     <div className="App">
-      <Switch />
+      <Switch rounded={true}/>
     </div>
   );
 };
